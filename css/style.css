@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+#final-price{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
