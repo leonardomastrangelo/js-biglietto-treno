@@ -20,9 +20,9 @@ if(isNaN(numberKm) || isNaN(age)){
 
 // total price
 if(age < 18){
-    document.getElementById("final-price").innerHTML = (clientPrice - (clientPrice * 0.2));
+    document.getElementById("final-price").innerHTML = (clientPrice - (clientPrice * 0.2)).toFixed(2);
 } else if(age > 65){
-    document.getElementById("final-price").innerHTML = (clientPrice - (clientPrice * 0.4));
+    document.getElementById("final-price").innerHTML = (clientPrice - (clientPrice * 0.4)).toFixed(2);
 } else{
-    document.getElementById("final-price").innerHTML = (clientPrice);
+    document.getElementById("final-price").innerHTML = (clientPrice).toFixed(2);
 }
