@@ -7,8 +7,12 @@
 body{
     background-color: bisque;
 }
-
-#final-price{
+h1
+{
+    text-align: center;
+}
+#final-price
+{
     max-width: 1200px;
     margin: 0 auto;
     background-color: darkgray;
